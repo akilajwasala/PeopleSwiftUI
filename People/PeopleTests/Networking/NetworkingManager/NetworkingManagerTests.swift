@@ -88,9 +88,9 @@ final class NetworkingManagerTests: XCTestCase {
                 return
             }
 
-//            XCTAssertEqual(networkingError,
-//                           NetworkingManager.NetworkingError.invalidStatusCode(statusCode: invalidStatusCode),
-//                           "Error should be a networking error which throws an invalid status code")
+            XCTAssertEqual(networkingError,
+                           NetworkingManager.NetworkingError.invalidStatusCode(statusCode: invalidStatusCode),
+                           "Error should be a networking error which throws an invalid status code")
 
         }
     }
@@ -117,9 +117,9 @@ final class NetworkingManagerTests: XCTestCase {
                 return
             }
 
-//            XCTAssertEqual(networkingError,
-//                           NetworkingManager.NetworkingError.invalidStatusCode(statusCode: invalidStatusCode),
-//                           "Error should be a networking error which throws an invalid status code")
+            XCTAssertEqual(networkingError,
+                           NetworkingManager.NetworkingError.invalidStatusCode(statusCode: invalidStatusCode),
+                           "Error should be a networking error which throws an invalid status code")
 
         }
     }

@@ -19,7 +19,7 @@ class NetworkingEndpointTests: XCTestCase {
         XCTAssertEqual(endpoint.methodType, .GET, "The method type should be GET")
         XCTAssertEqual(endpoint.queryItems, ["page":"1"], "The query items should be page:1")
         
-        XCTAssertEqual(endpoint.url?.absoluteString, "https://reqres.in/api/users?page=1&delay=2", "The generated doesn't match our endpoint")
+        XCTAssertEqual(endpoint.url?.absoluteString, "https://reqres.in/api/users?page=1&delay=1", "The generated doesn't match our endpoint")
     }
     
     func test_with_detail_endpoint_request_is_valid() {
@@ -32,7 +32,7 @@ class NetworkingEndpointTests: XCTestCase {
         XCTAssertEqual(endpoint.methodType, .GET, "The method type should be GET")
         XCTAssertNil(endpoint.queryItems, "The query items should be nil")
         
-//        XCTAssertEqual(endpoint.url?.absoluteString, "https://reqres.in/api/users/\(userId)?delay=2", "The generated doesn't match our endpoint")
+        XCTAssertEqual(endpoint.url?.absoluteString, "https://reqres.in/api/users/\(userId)?delay=1", "The generated doesn't match our endpoint")
 
     }
     
@@ -44,7 +44,7 @@ class NetworkingEndpointTests: XCTestCase {
         XCTAssertEqual(endpoint.methodType, .POST(data: nil), "The method type should be POST")
         XCTAssertNil(endpoint.queryItems, "The query items should be nil")
 
-//        XCTAssertEqual(endpoint.url?.absoluteString, "https://reqres.in/api/users?delay=2", "The generated doesn't match our endpoint")
+        XCTAssertEqual(endpoint.url?.absoluteString, "https://reqres.in/api/users?delay=1", "The generated doesn't match our endpoint")
 
     }
 
