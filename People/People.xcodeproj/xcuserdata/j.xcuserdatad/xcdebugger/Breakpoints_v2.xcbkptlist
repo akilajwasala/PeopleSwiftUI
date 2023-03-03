@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D4D2D73D-6346-4246-8819-9532EDC2FE67"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24B857FD-7FBE-435C-AEB0-379FF7E7DE1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "People/Features/Create/Views/CreateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "submit"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69E53AC3-B312-429D-AAAD-C72EE499EA79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "People/Features/Create/Views/CreateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "submit"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "69E53AC3-B312-429D-AAAD-C72EE499EA79 - de834c1ba67ad693"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in People.CreateView.submit.getter : some"
+                  moduleName = "People"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/j/Documents/Projects/People/People/Features/Create/Views/CreateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "286">
+               </Location>
+               <Location
+                  uuid = "69E53AC3-B312-429D-AAAD-C72EE499EA79 - b779262303ee5512"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in People.CreateView.submit.getter : some"
+                  moduleName = "People"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/j/Documents/Projects/People/People/Features/Create/Views/CreateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
